@@ -1,0 +1,15 @@
+<div class="character-container">
+    <h1>{{characterName}}</h1>
+    <div class="infos-container">
+        <img src={{characterImgPath}} alt={{characterAlt}}>
+        <div class="inner-infos-container">
+            <h2>PERFIL</h2>
+            <p>Apelido: {{characterNickname}}</p>
+            <p>Idade: {{characterAge}}</p>
+            <p>Sexo: {{characterGenre}}</p>
+            <p>Espécie: {{characterSpecie}}</p>
+            <p>Recompensa: ฿ {{characterReward}}</p>
+            <app-button [text]="'SELECIONAR'" (click)="selectCharacter()"></app-button>
+        </div>
+    </div>
+</div>

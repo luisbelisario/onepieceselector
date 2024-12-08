@@ -1,0 +1,17 @@
+.button {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #DF1B1B;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+
+    &:active {
+        bottom: -2px;
+    }
+}
